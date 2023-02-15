@@ -1,0 +1,738 @@
+.main_class{
+  height:100vh;
+  width:100vw;
+  background-color: rgb(38,149,145);
+}.version_display{  
+  font-family: 'Lobster';
+  font-size: 10px;
+  color:#8be2fff5;
+  margin-left:69%;
+}
+.assam_logo_main_class{
+  height: 124px;
+  width: 127px;
+  margin: 1px 102px;
+}.heading_title{
+  font-family: 'Alatsi';
+  color: #ffcec2;
+  text-align: center;
+  font-size: 35px;
+  margin:-82px 232px;
+}.piramal_logo_main_class{
+  height: 65px;
+  width: 132px;
+  float: right;
+  margin: 20px 51px;
+}.calender_image_class{
+  height: 54px;
+  width: 43px;
+}.refresh_image{
+  height: 42px;
+  width: 40px;
+  margin-left:10%;
+  margin-top:121%;
+}.refresh_image:hover{
+  border:4px solid #ffcec2;
+  border-radius:50%;
+}
+.middle_bar{
+  display:flex;
+  flex-direction:row;
+}.datepicker_main{
+  border: 3px double #18185a;
+  border-radius: 12px;
+  margin-top:42px;
+  margin-left:45%;
+}.first_row,.second_row,.third_row{
+  display:flex;
+  flex-direction:row;
+}.first_card,.second_card,.third_card,.fourth_card,.fifth_card,.sixth_card,.seventh_card,.eigth_card,.ninth_card{
+  border: 2px solid black;
+  width: 330px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  margin-inline:auto;
+  margin-top:10px;
+}.right_arrow_first_icon_class:hover,.right_arrow_second_icon_class:hover{
+  color: rgb(38,149,145);
+  text-shadow: 2px, 2px, 5px fuchsia;
+}
+.first_card_upper,.second_card_upper,.third_card_upper_text,.fourth_card_upper_part,.fifth_card_upper,.sixth_card_upper_part,.seventh_card_upper,.eigth_card_upperpart,.ninth_upper_card{
+  /* font-family: 'IM Fell Double Pica SC'; */
+  font-family: 'Alatsi';
+  font-size: 22px;
+  margin-inline:auto;
+  text-align:center;
+  border-bottom:2px solid black;
+  background:rgb(249,233,224);
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  color:#03366a;
+}.first_card_cumulative_count,.first_card_yesterday_count,.first_card_today_count,.second_card_cumulative_count,.second_card_yesterday_count,.second_card_today_count,.third_card_cumulative,.third_card_yesterday_count,.third_card_today_count,.fourth_card_lower_text,.fifth_card_lower_first_text,.fifth_card_lower_second_text,.sixth_card_lower_one_text,.sixth_card_lower_two_text,.seventh_lower_first_text,.eigth_card_lower_one_text,.ninth_card_lower_one_text,.Ninth_card_lower_additional_text{
+  font-family: 'Alatsi';
+  /* font-family: 'Langar'; */
+  font-size: 15px;
+  color:#020623;
+  margin-left:58px;
+}.right_arrow_first,.right_arrow_second{
+  height:26px;
+}.first_row{
+  margin-inline:auto;
+}#first_card_cumulative_value,#first_card_yesterday_value,#first_card_today_value,#second_card_lower_cumulative_value,#second_card_yesterday_value,#second_card_today_value,#third_card_cumulative_value,#third_card_yesterday_value,#third_card_today_value,#fourth_card_lower_text,#fourth_card_lower_total_value,#fifth_card_lower_first_value,#fifth_card_lower_second_value,#sixth_card_lower_one_value,#sixth_card_lower_two_value,#seventh_lower_first_value,#eigth_card_lower_one_value,#ninth_card_lower_one_value{
+  font-family: 'Alatsi';
+  /* font-family: 'Lily Script One'; */
+  font-size: 17px;
+  color:#010252;
+  margin-top:-1.2px;
+  padding-left: 4px;
+}.first_card_lower_one,.first_card_lower_two,.first_card_lower_three,.second_card_lower_one,.second_card_lower_two,.second_card_lower_three,.third_card_lower_one,.third_card_lower_two,.third_card_lower_three,.fourth_card_lower_part,.fifth_card_lower_one,.fifth_card_lower_two,.sixth_card_lower_one,.sixth_card_lower_two,.seventh_card_lower,.eigth_card_lower,.ninth_card_lower{
+  display:flex;
+  flex-direction:row;
+}.right_arrow_first{
+  margin-left:87%;
+  margin-top:-27px;
+}.right_arrow_second{
+  margin-left:85%;
+}.last_tag{
+  font-size: 10px;
+  color: #051905;
+  margin-left: 85%;
+}.datepicker_aht{
+  width:286px;
+  /* margin-right:-22px; */
+  /* position:relative;
+  display:inline-block; */
+  border-radius:39px;
+  margin-top:10px;
+  margin-left:340px;
+}.aht_home{
+  border:2px double black;
+  margin-top: 12px;
+  margin-left: 80px;
+  border-radius:8px;
+  height:44px;
+  padding:6px;
+  background-color:rgb(215, 215, 215);
+}.aht_refresh{
+  width:42px;
+  height:43px;
+  margin-left:0.8rem;
+  margin-top:12px;
+  text-align:center;
+  font-size:22px;
+  background-color:rgb(215,215,215);
+  border-radius:8px;
+  padding:0.5px 20px 10px 10px;
+  border:2px double black;
+}.download_img_class{
+  height: 23px;
+  width: 26px;
+  margin-top:8px;
+  margin-left: 5px;;
+}.download_img_class_main_link{
+  border:  2px double black;
+  border-radius: 5px;
+  margin-top: 13px;
+  margin-left: 10px;
+  margin-bottom: 24px;
+  width: 39px;
+  height:41px;
+  background-color:rgb(215, 215, 215);
+}
+/* .dash-table-container{
+  margin-right:768px;
+} */
+#table_aht{
+ margin-left:140px;
+}
+.aht_heading_title_paragraph{
+  margin-bottom:2px;
+}.aht_title{
+  /* margin-inline:auto; */
+  margin-top:10px;
+  border:2px double black;
+  border-radius:8px;
+  width:592px;
+  text-align:center;
+  font-size:x-large;
+  color:black;
+  font-family:serif;
+  font-weight:700;
+  background-color:#d9dae0;
+  padding-top:3px;
+  margin-left:340px;
+}.middle_layer{
+  display:flex;
+  flex-direction:row;
+  margin-inline:auto;
+}#c_aht_error{
+  width: 574px;
+  height: 20px;
+  margin-left: 334px;
+  margin-top: -22px;
+  font-family: ui-sans-serif;
+  font-size: 20px;
+}#btn_csv{
+  height: 42px;
+  border-radius: 7px;
+  border: 2px double black;
+  margin-top: 13px;
+  background-color: rgb(215,215,215);
+  margin-leFt: 13px;
+  color:#1995ff;
+}#btn_csv:hover{
+  text-decoration:underline;
+  /* text-decoration: #1995ff; */
+}.login_internal_class{
+  height:90vh;
+  width:90vw;
+  display:flex;
+  flex-direction:row;
+  /* background-color: rgb(38,149,145); */
+}.login_main_class{
+  height:100vh;
+  width:100vw;
+  background-color: rgb(38,149,145);
+}.login_form_group_internal,.login_internal_class{
+  display:flex;
+  flex-direction: column;
+}.login_internal_first_div,.login_internal_second_div,.login_header{
+  display:flex;
+  flex-direction:row;
+}.login_first_image{
+  height:111px;
+}.login_first_image{
+  width:123px;
+  height:106px;
+  margin-left:2px;
+}.login_internal_class{
+  border:4px double rgb(69 131 224);
+  border-radius:13px;
+}
+
+/* For Page Routing: AHT Calls */
+@media only screen and (min-width:300px) and (max-width:439px){
+  .aht_title{
+    margin-left:4px;
+    width:100%;
+  }.datepicker_aht{
+    margin-left:5px;
+  }#table_aht{
+    margin-left:-139px;
+  }
+  .aht_home{
+    margin-top:11px;
+    padding-top:0px;
+    padding-left:0px;
+    width:47px;
+    height:30px;
+    margin-left:1%;
+  }
+  .aht_refresh{
+    margin-top:11px;
+    margin-left:4px;
+    padding:0px;
+    height:33px;
+  }
+  .download_img_class_main_link{
+    margin-top:11px;
+    margin-left:3px;
+    height:32px;
+  }.download_img_class{
+    margin-top:-1px;
+  }.datepicker_class_specific{
+    margin-left:12%;
+  }#btn_csv{
+    height:31px;
+    margin-top:11px;
+    margin-left:4px;
+  }
+}
+
+/* For Page Routing: AHT Calls */
+@media only screen and (min-width:440px) and (max-width:499px){
+  .aht_title{
+    margin-left:4px;
+    width:100%;
+  }.datepicker_aht{
+    margin-left:5px;
+  }#table_aht{
+    margin-left:-139px;
+  }
+  .aht_home{
+    margin-top:3px;
+    margin-left:1%;
+  }
+  .aht_refresh{
+    margin-top:3px;
+  }
+  .download_img_class_main_link{
+    margin-top:3px;
+  }#btn_csv{
+    margin-top:3px;
+  }
+}
+
+/* For Page Routing: AHT Calls */
+@media only screen and (min-width:500px) and (max-width:589px){
+  .aht_title{
+    margin-left:4px;
+    width:100%;
+  }.datepicker_aht{
+    margin-left:5px;
+  }#table_aht{
+    margin-left:-139px;
+  }
+  .aht_home{
+    margin-top:3px;
+    margin-left:15%;
+  }
+  .aht_refresh{
+    margin-top:3px;
+  }
+  .download_img_class_main_link{
+    margin-top:3px;
+  }#btn_csv{
+    margin-top:3px;
+  }
+}
+
+/* For Page Routing: AHT Calls */
+@media only screen and (min-width:590px) and (max-width:649px){
+  .aht_title{
+    margin-left:4px;
+  }.datepicker_aht{
+    margin-left:5px;
+  }#table_aht{
+    margin-left:-139px;
+  }
+  .aht_home{
+    margin-top: 3px;
+  }
+  .aht_refresh{
+    margin-top:3px;
+  }
+  .download_img_class_main_link{
+    margin-top:3px;
+  }#btn_csv{
+    margin-top:3px;
+  }
+}
+
+/* For Page Routing: AHT Calls */
+@media only screen and (min-width:650px) and (max-width:729px){
+  .aht_title{
+    margin-left:58px;
+  }.datepicker_aht{
+    margin-left:58px;
+  }#table_aht{
+    margin-left:-91px;
+   }
+}
+
+/* For Page Routing: AHT Calls */
+@media only screen and (min-width:730px) and (max-width:819px){
+  .aht_title{
+    margin-left:130px;
+  }.datepicker_aht{
+    margin-left:130px;
+  }#table_aht{
+    margin-left:-17px;
+   }
+}
+
+/* For Page Routing: AHT Calls */
+@media only screen and (min-width:820px) and (max-width:924px){
+  .aht_title{
+    margin-left:157px;
+  }.datepicker_aht{
+    margin-left:157px;
+  }#table_aht{
+    margin-left:-17px;
+   }
+}
+
+
+/* For Page Routing: AHT Calls */
+@media only screen and (min-width:925px) and (max-width:1004px){
+  .aht_title{
+    margin-left:294px;
+  }.datepicker_aht{
+    margin-left:292px;
+  }
+}
+
+/* For Page Routing: AHT Calls */
+@media only screen and (min-width:1005px) and (max-width:1160px){
+.aht_title{
+  margin-left:315px;
+}.datepicker_aht{
+  margin-left:319px;
+}#table_aht{
+  margin-left:153px;
+}
+}
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:250px) and (max-width:349px){
+  .assam_logo_main_class{
+    margin:1px 20px;
+    height:60px;
+    width:60px;
+  }.version_display{
+    margin-left:54%;
+  }.heading_title{
+    margin:-32px 92px;
+    font-size:14px;
+  }.refresh_image{
+    height:32px;
+    width:32px;
+    margin-left:10%;
+    margin-top:26%;
+  }.last_tag{
+    margin-left:32%;}
+  .calender_image_class{
+      display:None;
+  }.datepicker_main{
+    border:None;
+    margin-top:9px;
+    margin-left:-4%;
+    border:None;
+  }.DateInput_input, .DateInput_input_1 {
+    Height: 30px;
+  }.first_card_cumulative_count,.first_card_yesterday_count,.first_card_today_count,.second_card_cumulative_count,.second_card_yesterday_count,.second_card_today_count,.third_card_cumulative,.third_card_yesterday_count,.third_card_today_count,.fourth_card_lower_text,.fifth_card_lower_first_text,.fifth_card_lower_second_text,.sixth_card_lower_one_text,.sixth_card_lower_two_text,.seventh_lower_first_text,.eigth_card_lower_one_text,.ninth_card_lower_one_text,.Ninth_card_lower_additional_text{
+    margin-left:6px;
+    font-size:10px;
+  }.piramal_logo_main_class{
+    height:38px;
+    width:79px;
+    float:right;
+    margin:11px 9px;
+  }.right_arrow_first{
+    margin-left:75%;
+    margin-top:-21px;
+    height:19px;
+  }.first_card_upper,.fifth_card_upper,.sixth_card_upper_part,.third_card_upper_text,.fourth_card_upper_part,.seventh_card_upper,.eigth_card_upperpart,.ninth_upper_card,.second_card_upper,.third_card_upper{
+    font-size: 12px;
+  }.right_arrow_second{
+    margin-left:74%;
+    height:19px;
+  }#first_card_cumulative_value,#first_card_yesterday_value,#first_card_today_value,#second_card_lower_cumulative_value,#second_card_yesterday_value,#second_card_today_value,#third_card_cumulative_value,#third_card_yesterday_value,#third_card_today_value,#fourth_card_lower_text,#fifth_card_lower_first_value,#fifth_card_lower_second_value,#sixth_card_lower_one_value,#sixth_card_lower_two_value,#seventh_lower_first_value,#eigth_card_lower_one_value,#ninth_card_lower_one_value{
+    font-size: 10px;
+  }.first_row,.second_row,.third_row{
+    display:flex;
+    flex-direction:column;
+  }.first_card,.second_card,.third_card,.fourth_card,.fifth_card,.sixth_card,.seventh_card,.eigth_card,.ninth_card{
+    width:90vw;
+  }
+}
+
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:350px) and (max-width:399px){
+  .assam_logo_main_class{
+    margin:1px 20px;
+    height:80px;
+    width:80px;
+  }.version_display{
+    margin-left:48%;
+  }.heading_title{
+    margin:-49px 133px;
+    font-size:14px;
+  }.last_tag{
+    margin-left:48%;}
+  .calender_image_class{
+      display:None;
+  }.datepicker_main{
+    border:None;
+    margin-top:50px;
+    margin-left:6%;
+    border:None;
+  }.DateInput_input, .DateInput_input_1 {
+    Height: 30px;
+  }.first_card_cumulative_count,.first_card_yesterday_count,.first_card_today_count,.second_card_cumulative_count,.second_card_yesterday_count,.second_card_today_count,.third_card_cumulative,.third_card_yesterday_count,.third_card_today_count,.fourth_card_lower_text,.fifth_card_lower_first_text,.fifth_card_lower_second_text,.sixth_card_lower_one_text,.sixth_card_lower_two_text,.seventh_lower_first_text,.eigth_card_lower_one_text,.ninth_card_lower_one_text,.Ninth_card_lower_additional_text{
+    margin-left:6px;
+    font-size:10px;
+  }.piramal_logo_main_class{
+    height:45px;
+    width:96px;
+    float:right;
+    margin:11px 23px;
+  }.right_arrow_first{
+    margin-left:75%;
+    margin-top:-21px;
+    height:19px;
+  }.first_card_upper,.fifth_card_upper,.sixth_card_upper_part,.third_card_upper_text,.fourth_card_upper_part,.seventh_card_upper,.eigth_card_upperpart,.ninth_upper_card,.second_card_upper,.third_card_upper{
+    font-size: 12px;
+  }.right_arrow_second{
+    margin-left:74%;
+    height:19px;
+  }#first_card_cumulative_value,#first_card_yesterday_value,#first_card_today_value,#second_card_lower_cumulative_value,#second_card_yesterday_value,#second_card_today_value,#third_card_cumulative_value,#third_card_yesterday_value,#third_card_today_value,#fourth_card_lower_text,#fifth_card_lower_first_value,#fifth_card_lower_second_value,#sixth_card_lower_one_value,#sixth_card_lower_two_value,#seventh_lower_first_value,#eigth_card_lower_one_value,#ninth_card_lower_one_value{
+    font-size: 10px;
+  }
+}
+/* For Ipad Screens part: */
+@media only screen and (min-width:400px) and (max-width:499px){
+  .assam_logo_main_class{
+    margin:1px 20px;
+    height:80px;
+    width:80px;
+  }.version_display{
+    margin-left:54%;
+  }.heading_title{
+    margin:-49px 133px;
+    font-size:23px;
+  }.last_tag{
+    margin-left:68%;}
+  .calender_image_class{
+      display:None;
+  }.datepicker_main{
+    border:None;
+    margin-top:50px;
+    margin-left:6%;
+    border:None;
+  }.DateInput_input, .DateInput_input_1 {
+    Height: 30px;
+  }.first_card_cumulative_count,.first_card_yesterday_count,.first_card_today_count,.second_card_cumulative_count,.second_card_yesterday_count,.second_card_today_count,.third_card_cumulative,.third_card_yesterday_count,.third_card_today_count,.fourth_card_lower_text,.fifth_card_lower_first_text,.fifth_card_lower_second_text,.sixth_card_lower_one_text,.sixth_card_lower_two_text,.seventh_lower_first_text,.eigth_card_lower_one_text,.ninth_card_lower_one_text,.Ninth_card_lower_additional_text{
+    margin-left:6px;
+    font-size:10px;
+  }.piramal_logo_main_class{
+    height:45px;
+    width:96px;
+    float:right;
+    margin:11px 23px;
+  }.right_arrow_first{
+    margin-left:75%;
+    margin-top:-21px;
+    height:19px;
+  }.first_card_upper,.fifth_card_upper,.sixth_card_upper_part,.third_card_upper_text,.fourth_card_upper_part,.seventh_card_upper,.eigth_card_upperpart,.ninth_upper_card,.second_card_upper,.third_card_upper{
+    font-size: 12px;
+  }.right_arrow_second{
+    margin-left:74%;
+    height:19px;
+  }#first_card_cumulative_value,#first_card_yesterday_value,#first_card_today_value,#second_card_lower_cumulative_value,#second_card_yesterday_value,#second_card_today_value,#third_card_cumulative_value,#third_card_yesterday_value,#third_card_today_value,#fourth_card_lower_text,#fifth_card_lower_first_value,#fifth_card_lower_second_value,#sixth_card_lower_one_value,#sixth_card_lower_two_value,#seventh_lower_first_value,#eigth_card_lower_one_value,#ninth_card_lower_one_value{
+    font-size: 10px;
+  }
+}
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:500px) and (max-width:599px){
+  .assam_logo_main_class{
+    margin:1px 20px;
+    height:80px;
+    width:80px;
+  }.version_display{
+    margin-left:54%;
+  }.heading_title{
+    font-size: 25px;
+  }.last_tag{
+    margin-left:68%;}
+  .calender_image_class{
+      display:None;
+  }.datepicker_main{
+    border:None;
+    margin-top:50px;
+    margin-left:28%;
+    border:None;
+  }.heading_title{
+    margin:-82px 187px;
+  }.DateInput_input, .DateInput_input_1 {
+    Height: 30px;
+  }.first_card_cumulative_count,.first_card_yesterday_count,.first_card_today_count,.second_card_cumulative_count,.second_card_yesterday_count,.second_card_today_count,.third_card_cumulative,.third_card_yesterday_count,.third_card_today_count,.fourth_card_lower_text,.fifth_card_lower_first_text,.fifth_card_lower_second_text,.sixth_card_lower_one_text,.sixth_card_lower_two_text,.seventh_lower_first_text,.eigth_card_lower_one_text,.ninth_card_lower_one_text,.Ninth_card_lower_additional_text{
+    margin-left:6px;
+  }.piramal_logo_main_class{
+    height:54px;
+    width:116px;
+    float:right;
+    margin:11px 23px;
+  }.right_arrow_first{
+    margin-left:81%;
+    margin-top:15px;
+  }.first_card_upper,.fifth_card_upper,.sixth_card_upper_part,.seventh_card_upper,.eigth_card_upperpart,.ninth_upper_card,.second_card_upper,.third_card_upper{
+    font-size: 16px;
+  }.right_arrow_second{
+    margin-left:74%;
+  }
+}
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:600px) and (max-width:700px){
+  .assam_logo_main_class{
+    margin:1px 20px;
+    height:94px;
+    width:95px;
+  }.heading_title{
+    font-size: 25px;
+  }.last_tag{
+    margin-left:68%;}
+  .calender_image_class{
+      display:None;
+  }.datepicker_main{
+    border:None;
+    margin-top:50px;
+    margin-left:28%;
+    border:None;
+  }.heading_title{
+    margin:-82px 187px;
+  }.DateInput_input, .DateInput_input_1 {
+    Height: 30px;
+  }.first_card_cumulative_count,.first_card_yesterday_count,.first_card_today_count,.second_card_cumulative_count,.second_card_yesterday_count,.second_card_today_count,.third_card_cumulative,.third_card_yesterday_count,.third_card_today_count,.fourth_card_lower_text,.fifth_card_lower_first_text,.fifth_card_lower_second_text,.sixth_card_lower_one_text,.sixth_card_lower_two_text,.seventh_lower_first_text,.eigth_card_lower_one_text,.ninth_card_lower_one_text,.Ninth_card_lower_additional_text{
+    margin-left:14px;
+  }.piramal_logo_main_class{
+    height:54px;
+    width:116px;
+    float:right;
+    margin:11px 23px;
+  }.right_arrow_first{
+    margin-left:81%;
+    margin-top:15px;
+  }.first_card_upper,.fifth_card_upper,.seventh_card_upper,.eigth_card_upperpart{
+    font-size: 20px;
+  }
+  
+}
+
+
+/* For Ipad Screens part: */
+/* @media only screen and (min-width:600px) and (max-width:700px){ */
+  /* .assam_logo_main_class{
+    margin:1px 29px;
+  }.heading_title{
+    font-size: 30px;
+  }.version_display{
+    margin-left:60%;
+  }.datepicker_main{
+    border:None;
+    margin-left:53%;
+    border:None;
+  }.fifth_card_upper{
+    font-size: 18px;
+  }.seventh_card_upper{
+    font-size: 20px; 
+  }.last_tag{
+    margin-left:74%;} */
+  /* .first_card_cumulative_count,.first_card_yesterday_count,.first_card_today_count,.second_card_cumulative_count,.second_card_yesterday_count,.second_card_today_count,.third_card_cumulative,.third_card_yesterday_count,.third_card_today_count,.fourth_card_lower_text,.fifth_card_lower_first_text,.fifth_card_lower_second_text,.sixth_card_lower_one_text,.sixth_card_lower_two_text,.seventh_lower_first_text,.eigth_card_lower_one_text,.ninth_card_lower_one_text,.Ninth_card_lower_additional_text{
+      margin-left:14px;
+    }
+  } */
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:701px) and (max-width:751px){
+/* .assam_logo_main_class{
+  margin:1px 29px;
+}.heading_title{
+  font-size: 30px;
+}.version_display{
+  margin-left:60%;
+}.datepicker_main{
+  border:None;
+  margin-left:53%;
+  border:None;
+}.fifth_card_upper{
+  font-size: 18px;
+}.seventh_card_upper{
+  font-size: 20px; 
+}.last_tag{
+  margin-left:74%;} */
+.first_card_cumulative_count,.first_card_yesterday_count,.first_card_today_count,.second_card_cumulative_count,.second_card_yesterday_count,.second_card_today_count,.third_card_cumulative,.third_card_yesterday_count,.third_card_today_count,.fourth_card_lower_text,.fifth_card_lower_first_text,.fifth_card_lower_second_text,.sixth_card_lower_one_text,.sixth_card_lower_two_text,.seventh_lower_first_text,.eigth_card_lower_one_text,.ninth_card_lower_one_text,.Ninth_card_lower_additional_text{
+    margin-left:14px;
+  }
+}
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:752px) and (max-width:769px){
+  .heading_title{
+    font-size:30px;
+  }
+  .calender_image_class{
+    display:None;
+  }
+  .version_display{
+    margin-left:63%;
+  }
+  .datepicker_main{
+    border:None;
+    margin-left:37%;
+  }
+  .last_tag{
+    margin-left:74%;}
+  .assam_logo_main_class{
+    margin:1px 20px;
+  }.refresh_image{
+    margin-top:114%;
+  }.fifth_card_upper{
+    font-size: 18px;;
+  }
+}
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:770px) and (max-width:799px){
+  .version_display{
+    margin-left:63%;
+  }
+  .datepicker_main{
+    margin-left:30%;
+  }
+  .last_tag{
+    margin-left:74%;}
+  .assam_logo_main_class{
+    margin:1px 20px;
+  }
+}
+
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:800px) and (max-width:819px){
+  .version_display{
+    margin-left:63%;
+  }
+  .datepicker_main{
+    margin-left:32%;
+  }
+  .last_tag{
+    margin-left:74%;}
+  .assam_logo_main_class{
+    margin:1px 60px;
+  }
+}
+
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:820px) and (max-width:839px){
+  .version_display{
+    margin-left:63%;
+  }
+  .datepicker_main{
+    margin-left:36%;
+  }
+  .last_tag{
+    margin-left:74%;}
+  .assam_logo_main_class{
+    margin:1px 60px;
+  }
+}
+
+/* For Ipad Screens part: */
+@media only screen and (min-width:840px) and (max-width:884px){
+  .version_display{
+    margin-left:67%;
+  }
+  .datepicker_main{
+    margin-left:38%;
+  }.last_tag{
+    margin-left:72%;
+}
+}
+
+/* For Ipad Screens  */
+@media only screen and (min-width:885px) and (max-width:920px){
+  .datepicker_main{
+    margin-left:40%;
+  }
+  .last_tag{
+    margin-left:72%;
+  }
+
+}
+
+
